@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D611E47C2C7E5D16008F615C /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D611E47B2C7E5D16008F615C /* ProgressCircleView.swift */; };
 		D69D09F02C7A6DD300DB433C /* WorkoutAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69D09EF2C7A6DD300DB433C /* WorkoutAppApp.swift */; };
 		D69D09F22C7A6DD300DB433C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69D09F12C7A6DD300DB433C /* ContentView.swift */; };
 		D69D09F42C7A6DD400DB433C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69D09F32C7A6DD400DB433C /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D611E47B2C7E5D16008F615C /* ProgressCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
 		D69D09EC2C7A6DD300DB433C /* WorkoutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D69D09EF2C7A6DD300DB433C /* WorkoutAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppApp.swift; sourceTree = "<group>"; };
 		D69D09F12C7A6DD300DB433C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				D6D0FEA32C7A794A00E467CE /* FitnessTabView.swift */,
 				D6D0FEA72C7A79F800E467CE /* HistoricDataView.swift */,
 				D6D0FEA52C7A79AF00E467CE /* HomeView.swift */,
+				D611E47B2C7E5D16008F615C /* ProgressCircleView.swift */,
 				D69D09F32C7A6DD400DB433C /* Assets.xcassets */,
 				D69D09F52C7A6DD400DB433C /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6D0FEA42C7A794A00E467CE /* FitnessTabView.swift in Sources */,
+				D611E47C2C7E5D16008F615C /* ProgressCircleView.swift in Sources */,
 				D6D0FEA62C7A79AF00E467CE /* HomeView.swift in Sources */,
 				D6D0FEA82C7A79F800E467CE /* HistoricDataView.swift in Sources */,
 				D69D09F22C7A6DD300DB433C /* ContentView.swift in Sources */,
