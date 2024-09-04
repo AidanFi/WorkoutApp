@@ -14,7 +14,7 @@ struct HomeView: View {
     
     var body: some View {
         ScrollView(showsIndicators: false) {
-            VStack {
+            VStack(alignment: .leading) {
                 Text("Welcome")
                     .font(.largeTitle)
                     .padding()
@@ -75,6 +75,36 @@ struct HomeView: View {
                     Spacer()
                 }
                 .padding()
+                
+                HStack {
+                    Text("Fitness Activity")
+                        .font(.title2)
+                    
+                    Spacer()
+                    
+                    Button {
+                        print("show more")
+                    } label: {
+                        Text("show more")
+                            .padding(.all, 10)
+                            .foregroundColor(.white)
+                            .background(.blue)
+                            .cornerRadius(20)
+                    }
+
+                }
+                .padding(.horizontal)
+                
+                LazyVGrid(columns: Array(repeating: GridItem(spacing: 20), count:2)) {
+                    ActivityCard(activity: Activity(id: 0, title: "Today steps", subtitle: "Goal: 10,000", image: "figure.walk", tintColor: .green, amount:"9,812"))
+                    
+                    ActivityCard(activity: Activity(id: 0, title: "Today steps", subtitle: "Goal: 10,000", image: "figure.walk", tintColor: .green, amount:"9,812"))
+                    
+                    ActivityCard(activity: Activity(id: 0, title: "Today steps", subtitle: "Goal: 10,000", image: "figure.walk", tintColor: .green, amount:"9,812"))
+                    
+                    ActivityCard(activity: Activity(id: 0, title: "Today steps", subtitle: "Goal: 10,000", image: "figure.walk", tintColor: .green, amount:"9,812"))
+                    
+                }
             }
         }
     }
